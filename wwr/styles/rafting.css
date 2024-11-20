@@ -1,0 +1,93 @@
+:root {
+    --background-color1: #4e5166;
+    --background-color2: #6c7d47;
+    --accent1: #e5f2c9;
+    --accent2: #faa916;
+    --heading-font: "Protest Revolution", serif;
+    --font: "Open Sans", serif;
+    --text-decoration: none;
+}
+
+*{
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+	height: auto;
+	object-fit: cover;
+    margin: 4px;
+    border: 5px solid var(--background-color1);	
+}
+
+.hero h1 {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--background-color2);
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--accent1);
+    position:absolute;
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px #777;
+}
+
+.mission img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    /* float: right; */ 
+    /* margin: 20px 0 20px 20px; */
+    top: 500px;
+	right: 50px;
+	border: 1.5px solid var(--accent2);
+	padding: 0.65rem;
+	box-shadow: 0 0 30px var(--accent1);
+}
+
+.mission p {
+    width: 95%;
+    height: 200px;
+    left: 40px;
+    background-color: var(--background-color1);
+    position: absolute;
+    top: 460px;
+    opacity: 0.7;
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--accent2);
+    text-align: justify;
+    text-indent: 5px;
+}
+
+h2{
+    font-family: var(--heading-font);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--accent2);
+    position:relative;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px #777; 
+    text-indent: 5px;
+}
+
+section img {
+    display: block;
+    width: 500px;
+	height: auto;
+    margin: 4px;
+    border: 5px solid var(--background-color1);
+}
+
+section p {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--background-color1);
+    text-align: justify;
+    text-indent: 5px;
+}
