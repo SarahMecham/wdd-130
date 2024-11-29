@@ -35,11 +35,9 @@ nav {
 .navigation {
 	display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 	list-style: none;
-}
-
-.navigation li {
-	flex: 1 1 100%;
 }
 
 .navigation a {
