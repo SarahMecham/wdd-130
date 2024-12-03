@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    width: auto;
+}
+
+h1 {
+    font-family: "parkinsons", sans-serif;
+    font-size: 2rem;
+    color: rgb(1, 1, 70);
+    background-color: rgb(252, 251, 251);
+    text-align: center;
+}
+
+body {
+    font-family: "parkinsons", sans-serif;
+    font-size: 1rem;
+    color: rgb(2, 2, 128);
+    background-color: rgb(252, 251, 251);
+}
+
+form {
+    width: 550px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid rgb(1, 1, 70);
+    border-radius: 10px;
+    background-color: rgb(203, 202, 202);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .8rem;
+    margin: 1rem;
+    padding: 5px;
+    border: .8px solid rgb(1, 1, 70);
+}
+
+legend {
+    padding: 1px;
+    font-size: 1.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(55, 55, 120);
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: .4rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    padding: .5rem;
+    border: 3px solid rgb(1, 1, 70);
+    border-radius: .5rem;
+    background-color: rgb(172, 181, 244);
+    color:rgb(1, 1, 70);
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: rgb(223, 226, 252);
+}
+
+footer {
+    margin: 1rem auto 1rem;
+    width: 550px;
+    border-top: 1.5px solid rgb(196, 196, 196);
+    font-size: .8rem;
+    color: rgb(1, 1, 70); 
+    text-align: center;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .3rem 0;
+}
+
+.column3 {
+    grid-template-rows: 1fr 2fr;
+    margin: .3rem 0;
+}
