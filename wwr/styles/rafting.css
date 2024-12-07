@@ -240,3 +240,156 @@ footer p {
     display: flex;
     justify-content: space-around;
 }
+
+form {
+    width: 550px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid var(--background-color1);
+    border-radius: 10px;
+    background-color: rgb(225, 225, 225);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .8rem;
+    margin: 1rem;
+    padding: 5px;
+    border: .8px solid var(--background-color1);
+}
+
+legend {
+    font-family: var(--font);
+    color: var(--background-color1);
+    font-weight: 400;
+    padding: 1px;
+    font-size: 1.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--font);
+    color: var(--background-color1);
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: .8rem;
+}
+
+input, select, textarea {
+    padding: .4rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    padding: .5rem;
+    border: 3px solid var(--background-color1);
+    border-radius: .5rem;
+    background-color: rgb(189, 189, 189);
+    color:var(--background-color1);
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: var(--accent2);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+   
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .3rem 0;
+}
+
+.column3 {
+    grid-template-rows: 1fr 2fr;
+    margin: .3rem 0;
+}
+
+.wireframe {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    margin: .2rem;
+}
+
+.contact h1 {
+    font-family: var(--heading-font);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--accent2);
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px #777; 
+    text-indent: 4px;
+}
+
+.contact p {
+    font-family: var(--font);
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--background-color1);
+    text-align: justify;
+    text-indent: 5px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.map {
+    grid-column: 1/2;
+    margin: 2rem;
+}
+
+.form {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.staff {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.title {
+    grid-column: span;
+    grid-row: 1/2;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profiles img {
+    width: 100px;
+    height: 138px;
+}
