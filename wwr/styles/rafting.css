@@ -379,7 +379,7 @@ button:hover {
 }
 
 .title {
-    grid-column: span;
+    grid-column: 1/4;
     grid-row: 1/2;
 }
 
