@@ -334,7 +334,8 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 2fr;
-    margin: .2rem;
+    margin: 3rem .2rem;
+    height: 750px;
 }
 
 .contact h1 {
@@ -376,6 +377,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
+    border-top: 1px solid var(--background-color1);
 }
 
 .title {
