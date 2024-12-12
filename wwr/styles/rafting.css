@@ -416,7 +416,7 @@ button:hover {
     font-family: var(--heading-font);
     font-weight: 400;
     font-style: normal;
-    border: 5px dashed var(--background-color1);
+    border: 5px solid var(--background-color1);
     background-color: var(--accent2);
     color: var(--background-color1);
     font-size: 3rem;
