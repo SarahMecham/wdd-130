@@ -298,7 +298,7 @@ button {
     border: 3px solid var(--background-color1);
     border-radius: .5rem;
     background-color: rgb(189, 189, 189);
-    color:var(--background-color1);
+    color: var(--background-color1);
     font-size: 1.1rem;
 }
 
@@ -447,12 +447,6 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
-}
-
-.action a:hover {
-    color: var(--accent2);
-    font-weight: 700;
-    text-decoration: underline;
 }
 
 .tour button {
