@@ -309,7 +309,6 @@ button:hover {
 .form-item {
     display: grid;
     align-items: center;
-   
 }
 
 .column1 {
@@ -414,13 +413,25 @@ button:hover {
     align-items: center;
 }
 
-.hero button {
+.herolink {
     position: absolute;
     margin-top: 450px;
     width: 200px;
     height: auto;
     font-size: 2rem;
     list-style: none;
+    border: 2px solid var(--background-color1);
+    border-radius: 5px;
+    width: 200px;
+    font-family: var(--font);
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: rgb(225, 225, 225);
+    color: var(--background-color1);
+}
+
+.herolink:hover {
+    background-color: var(--accent2);
 }
 
 .action {
@@ -441,6 +452,20 @@ button:hover {
     align-items: center;
     flex-direction: column;
 	list-style: none;
+}
+
+.actionlink {
+    border: 2px solid var(--background-color1);
+    border-radius: 5px;
+    width: 200px;
+    font-family: var(--font);
+    font-size: 1.3rem;
+    background-color: var(--accent1);
+    color: var(--background-color1);
+}
+
+.actionlink:hover {
+    background-color: var(--background-color2);
 }
 
 .form1 {
