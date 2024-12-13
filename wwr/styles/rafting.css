@@ -1,8 +1,8 @@
 :root {
-    --background-color1: #4e5166;
-    --background-color2: #6c7d47;
-    --accent1: #e5f2c9;
-    --accent2: #faa916;
+    --background-color1: #31323F;
+    --background-color2: #3A4125;
+    --accent1: #F3F9E6;
+    --accent2: #FAB742;
     --heading-font: "Protest Revolution", serif;
     --font: "Open Sans", serif;
     --text-decoration: none;
@@ -204,7 +204,6 @@ h2 {
     font-weight: 400;
     font-style: normal;
     color: var(--accent2);
-    background-color: white;
     position: relative;
     font-size: 3rem;
     text-shadow: 3px 3px 5px #777; 
@@ -224,7 +223,6 @@ figcaption {
     font-weight: 400;
     font-size: 1rem;
     color: var(--background-color1);
-    background-color: white;
     text-align: center;
     text-indent: 5px;
 }
@@ -305,8 +303,8 @@ button {
     padding: .5rem;
     border: 3px solid var(--background-color1);
     border-radius: .5rem;
-    background-color: rgb(189, 189, 189);
-    color: var(--background-color1);
+    background-color: var(--accent1);
+    color: var(--background-color2);
     font-size: 1.1rem;
 }
 
@@ -437,7 +435,7 @@ button:hover {
     font-family: var(--font);
     font-size: 1.3rem;
     text-align: center;
-    background-color: rgb(225, 225, 225);
+    background-color: var(--accent1);
     color: var(--background-color1);
 }
 
@@ -526,7 +524,7 @@ caption {
 
 thead, tfoot {
     background-color: var(--background-color2);
-    color: black;
+    color: var(--accent1);
 }
 
 th, td {
