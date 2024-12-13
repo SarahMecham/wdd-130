@@ -143,6 +143,7 @@ nav {
     grid-column: 2/3;
     grid-row: 1/3;
     background-color: var(--background-color1);
+    color: var(--accent2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,6 +154,7 @@ nav {
     font-weight: 400;
     font-style: normal;
     color: var(--accent2);
+    background-color: var(--background-color1);
     font-size: 3rem;
     text-shadow: 3px 3px 5px #777; 
 }
@@ -181,6 +183,7 @@ nav {
 .adventures {
     margin: .25px;
     background-color: #4e5166;
+    color: var(--accent2);
 }
 
 .adventurestitle {
@@ -201,6 +204,7 @@ h2 {
     font-weight: 400;
     font-style: normal;
     color: var(--accent2);
+    background-color: white;
     position: relative;
     font-size: 3rem;
     text-shadow: 3px 3px 5px #777; 
@@ -220,6 +224,7 @@ figcaption {
     font-weight: 400;
     font-size: 1rem;
     color: var(--background-color1);
+    background-color: white;
     text-align: center;
     text-indent: 5px;
 }
@@ -236,6 +241,7 @@ footer p {
     font-weight: 400;
     font-size: 1rem;
     color: var(--background-color1);
+    background-color: white;
 }
 
 .sociallinks {
@@ -251,6 +257,7 @@ form {
     border: 3px solid var(--background-color1);
     border-radius: 10px;
     background-color: rgb(225, 225, 225);
+    color: var(--background-color1);
     display: grid;
 }
 
@@ -265,6 +272,7 @@ fieldset {
 legend {
     font-family: var(--font);
     color: var(--background-color1);
+    background-color: rgb(225, 225, 225);
     font-weight: 400;
     padding: 1px;
     font-size: 1.5rem;
@@ -304,6 +312,7 @@ button {
 
 button:hover {
     background-color: var(--accent2);
+    color: var(--background-color1);
 }
 
 .form-item {
@@ -345,6 +354,7 @@ button:hover {
     font-weight: 400;
     font-style: normal;
     color: var(--accent2);
+    background-color: white;
     font-size: 3rem;
     text-shadow: 3px 3px 5px #777; 
     text-indent: 4px;
@@ -355,6 +365,7 @@ button:hover {
     font-weight: 300;
     font-size: 1rem;
     color: var(--background-color1);
+    background-color: white;
     text-align: justify;
     text-indent: 5px;
 }
@@ -432,6 +443,7 @@ button:hover {
 
 .herolink:hover {
     background-color: var(--accent2);
+    color: var(--background-color1);
 }
 
 .action {
@@ -466,6 +478,7 @@ button:hover {
 
 .actionlink:hover {
     background-color: var(--background-color2);
+    color: var(--background-color1);
 }
 
 .form1 {
@@ -477,6 +490,7 @@ button:hover {
     border: 3px solid var(--background-color1);
     border-radius: 10px;
     background-color: rgb(225, 225, 225);
+    color: var(--background-color1);
 }
 
 .about {
@@ -512,6 +526,7 @@ caption {
 
 thead, tfoot {
     background-color: var(--background-color2);
+    color: black;
 }
 
 th, td {
@@ -525,6 +540,7 @@ td:last-of-type {
 
 tbody > tr:nth-of-type(even) {
     background-color: rgb(237 238 242);
+    color: black;
 } 
 
 tfoot td {
